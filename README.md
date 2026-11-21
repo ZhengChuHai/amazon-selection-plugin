@@ -8,6 +8,18 @@
 
 ---
 
+## 一键让 AI 自动安装（推荐）
+
+直接把下面这句话复制发给你的 AI 客户端（Antigravity / Claude Code / Codex / Cursor），让它帮你自动完成克隆、编译和配置：
+
+```text
+请帮我安装并配置 https://github.com/ZhengChuHai/amazon-selection-plugin ：按仓库 README 的步骤克隆到本地并完成依赖安装、编译和测试，然后根据我当前使用的 AI 客户端自动挂载 Skill 和 amazon-selection-calc MCP；配置完成后询问我是否需要补充卖家精灵 MCP 密钥。
+```
+
+> 如需手动安装，请看下方的「一、下载与构建」和「二、安装到 AI 客户端」。
+
+---
+
 ## 核心能力
 
 **1. 选品流程 Skill（`skills/amazon-product-selection/SKILL.md`）**
