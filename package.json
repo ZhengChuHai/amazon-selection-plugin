@@ -1,0 +1,42 @@
+{
+  "name": "amazon-selection-plugin",
+  "version": "1.0.0",
+  "description": "亚马逊选品 AI 插件：五因子初筛 + 12 项指标深度打表 + 2026 费率/关税/责任险利润测算",
+  "license": "MIT",
+  "author": "ZhengChuHai",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZhengChuHai/amazon-selection-plugin.git"
+  },
+  "homepage": "https://github.com/ZhengChuHai/amazon-selection-plugin#readme",
+  "bugs": {
+    "url": "https://github.com/ZhengChuHai/amazon-selection-plugin/issues"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "type": "module",
+  "bin": {
+    "amazon-selection-calc": "./dist/index.js"
+  },
+  "files": [
+    "dist",
+    "skills",
+    "plugin.json",
+    "mcp_config.json",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "node --test dist/calculator.test.js",
+    "dev": "tsc --watch"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1",
+    "zod": "^3.25.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.0",
+    "typescript": "^5.8.0"
+  }
+}

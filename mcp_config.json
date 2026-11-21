@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "amazon-selection-calc": {
+      "command": "node",
+      "args": ["dist/index.js"]
+    }
+  }
+}

@@ -1,0 +1,11 @@
+node_modules/
+dist/
+.DS_Store
+*.log
+*.tgz
+demo-report.html
+selection-report-*.html
+
+# 宣传视频工程（体积大、含缓存与音频素材，不随插件发布）
+video-*/
+.film/
